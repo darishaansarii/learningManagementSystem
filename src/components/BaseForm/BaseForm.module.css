@@ -1,0 +1,51 @@
+.baseForm {
+    width: 60% ;
+    padding-top: 120px ;
+    margin-left: 360px ;
+}
+
+@media (max-width: 1000px) {
+    .baseForm {
+    margin-left: 320px;
+
+    }
+}
+
+@media (max-width: 850px) {
+    .baseForm {
+        margin-left: 310px;
+    }
+}
+
+@media (max-width: 800px) {
+    .baseForm {
+        margin-left: 270px;
+    }
+}
+
+@media (max-width: 730px) {
+    .baseForm {
+        margin-left: 260px;
+    }
+}
+
+@media (max-width: 650px) {
+    .baseForm {
+        margin-left: 220px;
+    }
+}
+
+@media (max-width: 550px) {
+    .baseForm {
+        margin: 120px 20px;
+        width: 90% !important;
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 0px) {
+    .baseForm {
+        margin: 120px 20px;
+        width: 90%;
+    }
+}

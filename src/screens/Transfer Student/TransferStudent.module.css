@@ -1,0 +1,57 @@
+.container {
+    width: 60% ;
+    margin-top: 120px ;
+    margin-left: 360px ;
+    
+}
+ 
+.textField {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 1000px) {
+    .container {
+    margin-left: 320px;
+
+    }
+}
+
+@media (max-width: 850px) {
+    .container {
+        margin-left: 310px;
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+        margin-left: 270px;
+    }
+}
+
+@media (max-width: 730px) {
+    .container {
+        margin-left: 260px;
+    }
+}
+
+@media (max-width: 650px) {
+    .container {
+        margin-left: 220px;
+    }
+}
+
+@media (max-width: 550px) {
+    .container {
+        margin: 120px 20px;
+        width: 90% !important;
+    }
+}
+
+@media (max-width: 0px) {
+    .container {
+        margin: 120px 20px;
+        width: 90%;
+    }
+}

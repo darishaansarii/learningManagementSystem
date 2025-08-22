@@ -1,0 +1,45 @@
+.dashContainer {
+    padding-top: 120px;
+    padding-left: 330px;
+    padding-right: 30px;
+    background: linear-gradient(135deg, #f0f9f9, #ffffff);
+    border-radius: 10px;
+    height: 100vh;
+}
+
+.heading {
+    color: #009e97;
+    font-weight: bolder !important;
+}
+
+.quote {
+    font-style: italic;
+    padding: 10px 0;
+    color: #e7c137;
+    font-weight: bold !important;
+    opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+    /* transition: opacity 0.5s; */
+}
+
+.quote.show {
+    opacity: 1;
+}
+
+@media (max-width: 800px) {
+    .dashContainer {
+        padding-left: 280px;
+    }
+}
+
+@media (max-width: 650px) {
+    .dashContainer {
+        padding-left: 220px;
+    }
+}
+
+@media (max-width: 550px) {
+    .dashContainer {
+        padding-left: 30px;
+    }
+}
